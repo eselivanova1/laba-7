@@ -1,0 +1,79 @@
+{
+   "shop_name": "shop",
+   "address": "\u0442\u0443\u0442",
+   "product": [
+      {
+         "id": 1,
+         "name": "idk",
+         "brand": "idk too",
+         "brand_id": 1
+      },
+      {
+         "id": 2,
+         "name": "weiojf",
+         "brand": "oewijf\\",
+         "brand_id": {
+            "message": "\u042d\u043b\u0435\u043c\u0435\u043d\u0442 \u0441 oewijf\\ \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d"
+         }
+      },
+      {
+         "id": 3,
+         "name": "new one",
+         "brand": "idk too",
+         "brand_id": 1
+      }
+   ],
+   "brand": [
+      {
+         "id": 1,
+         "name": "idk too"
+      },
+      {
+         "id": 2,
+         "name": "newBrand"
+      }
+   ],
+   "shops": [
+      {
+         "id": 1,
+         "name": "one"
+      },
+      {
+         "id": 2,
+         "name": "two"
+      },
+      {
+         "id": 3,
+         "name": "three"
+      }
+   ],
+   "sellers": [
+      {
+         "id": 1,
+         "name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u041a\u0438\u0440\u0435\u0435\u0432\u0430",
+         "shop_id": 1,
+         "contacts": {
+            "email": "Kireeva@example.com",
+            "phone": "+1122334455"
+         }
+      },
+      {
+         "id": 2,
+         "name": "\u0412\u0430\u0440\u0432\u0430\u0440\u0430 \u0412\u043e\u043b\u043a\u043e\u0432\u0430",
+         "shop_id": 2,
+         "contacts": {
+            "email": "Volkova@example.com",
+            "phone": "+6677889911"
+         }
+      },
+      {
+         "id": 3,
+         "name": "\u0410\u043b\u0438\u044f \u041f\u0435\u0442\u0440\u043e\u0432\u0430",
+         "shop_id": 3,
+         "contacts": {
+            "email": "Petrova@example.com",
+            "phone": "+2233445566"
+         }
+      }
+   ]
+}
